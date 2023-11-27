@@ -2,6 +2,7 @@ package n1exercici1;
 
 public class BrokerAgency implements BrokerAgencies{
     private double stockValue;
+
     public BrokerAgency() {
     }
 

@@ -19,8 +19,6 @@ public class BrokerAgent {
         agencies.add(agency);
     }
     public void notifyAllAgencies(){
-        for (BrokerAgency agency : agencies){
-            agency.update(stockValue);
-        }
+        agencies.forEach(a -> a.update(stockValue));
     }
 }
