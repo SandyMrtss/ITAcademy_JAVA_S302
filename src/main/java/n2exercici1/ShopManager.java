@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ShopManager {
     static Scanner in = new Scanner(System.in);
-    public static int pickMethod(){
+    private static int pickMethod(){
         System.out.println("""
                 What payment method do you want to use?
                 1.- Paypal
